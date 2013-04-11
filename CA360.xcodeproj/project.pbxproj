@@ -13,6 +13,12 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		93A6FCDF1716D21600B4945E /* buttonGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A6FCD91716D21600B4945E /* buttonGreen.png */; };
+		93A6FCE01716D21600B4945E /* buttonGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A6FCDA1716D21600B4945E /* buttonGreen@2x.png */; };
+		93A6FCE11716D21600B4945E /* buttonRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A6FCDB1716D21600B4945E /* buttonRed.png */; };
+		93A6FCE21716D21600B4945E /* buttonRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A6FCDC1716D21600B4945E /* buttonRed@2x.png */; };
+		93A6FCE31716D21600B4945E /* buttonGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A6FCDD1716D21600B4945E /* buttonGray.png */; };
+		93A6FCE41716D21600B4945E /* buttonGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A6FCDE1716D21600B4945E /* buttonGray@2x.png */; };
 		DF5FC6C011C7FBD900130E6E /* AdvancedShapeLayers.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5FC6BF11C7FBD900130E6E /* AdvancedShapeLayers.m */; };
 		DF6D1C3A11C19AF200025ED7 /* ShutterTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D1C3911C19AF200025ED7 /* ShutterTransition.m */; };
 		DF75ABFD116A8252006FF3EB /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF75ABFC116A8252006FF3EB /* MainWindow-iPad.xib */; };
@@ -58,6 +64,12 @@
 		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93A6FCD91716D21600B4945E /* buttonGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonGreen.png; sourceTree = "<group>"; };
+		93A6FCDA1716D21600B4945E /* buttonGreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonGreen@2x.png"; sourceTree = "<group>"; };
+		93A6FCDB1716D21600B4945E /* buttonRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonRed.png; sourceTree = "<group>"; };
+		93A6FCDC1716D21600B4945E /* buttonRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonRed@2x.png"; sourceTree = "<group>"; };
+		93A6FCDD1716D21600B4945E /* buttonGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonGray.png; sourceTree = "<group>"; };
+		93A6FCDE1716D21600B4945E /* buttonGray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonGray@2x.png"; sourceTree = "<group>"; };
 		DF5FC6BE11C7FBD900130E6E /* AdvancedShapeLayers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdvancedShapeLayers.h; path = Classes/Samples/AdvancedShapeLayers.h; sourceTree = "<group>"; };
 		DF5FC6BF11C7FBD900130E6E /* AdvancedShapeLayers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = AdvancedShapeLayers.m; path = Classes/Samples/AdvancedShapeLayers.m; sourceTree = "<group>"; };
 		DF64092411DD64D1002D1414 /* UsefulMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsefulMacros.h; sourceTree = "<group>"; };
@@ -174,6 +186,12 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				93A6FCD91716D21600B4945E /* buttonGreen.png */,
+				93A6FCDA1716D21600B4945E /* buttonGreen@2x.png */,
+				93A6FCDB1716D21600B4945E /* buttonRed.png */,
+				93A6FCDC1716D21600B4945E /* buttonRed@2x.png */,
+				93A6FCDD1716D21600B4945E /* buttonGray.png */,
+				93A6FCDE1716D21600B4945E /* buttonGray@2x.png */,
 				28A0AAE50D9B0CCF005BE974 /* CA360_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -367,6 +385,12 @@
 				DF75ABFD116A8252006FF3EB /* MainWindow-iPad.xib in Resources */,
 				DFC621E711745A1F00F5B5FD /* NumberStrip.png in Resources */,
 				DF7A2FAF123D6C5700BDD60A /* Delicious-Roman.otf in Resources */,
+				93A6FCDF1716D21600B4945E /* buttonGreen.png in Resources */,
+				93A6FCE01716D21600B4945E /* buttonGreen@2x.png in Resources */,
+				93A6FCE11716D21600B4945E /* buttonRed.png in Resources */,
+				93A6FCE21716D21600B4945E /* buttonRed@2x.png in Resources */,
+				93A6FCE31716D21600B4945E /* buttonGray.png in Resources */,
+				93A6FCE41716D21600B4945E /* buttonGray@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
