@@ -39,6 +39,32 @@
   rootViewController_ = [[RootViewController alloc] initWithStyle:UITableViewStyleGrouped];
   navigationController_ = [[UINavigationController alloc] initWithRootViewController:rootViewController_];
     NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+
 
   [window_ addSubview:navigationController_.view];
   [window_ makeKeyAndVisible];
