@@ -88,10 +88,10 @@
 }
 
 - (NSArray *)samplesForGroup:(NSUInteger)group {
-    NSLog(@"samplemanager log in hotfix");
-    NSLog(@"samplemanager log in hotfix");
+    NSLog(@"samplemanager log in 3rd branch");
+    NSLog(@"samplemanager log in 3rd branch");
     
-    NSLog(@"samplemanager log in hotfix");
+    NSLog(@"samplemanager log in 3rd branch");
     return [[[samples_ objectAtIndex:group] copy] autorelease];
 }
 
