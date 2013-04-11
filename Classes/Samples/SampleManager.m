@@ -87,6 +87,11 @@
 }
 
 - (NSArray *)samplesForGroup:(NSUInteger)group {
+    
+    NSLog(@"samplemanager log in master");
+    NSLog(@"samplemanager log in master");
+    
+    NSLog(@"samplemanager log in master");
   return [[[samples_ objectAtIndex:group] copy] autorelease];
 }
 
