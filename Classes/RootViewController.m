@@ -35,6 +35,12 @@
 - (void)viewDidLoad {
   sampleManager_ = [[SampleManager alloc] init];
   self.title = @"Samples";
+    
+    NSLog(@"rootviewcontrooler log in hotfix");
+    NSLog(@"rootviewcontrooler log in hotfix");
+
+    NSLog(@"rootviewcontrooler log in hotfix");
+
 }
 
 - (void)viewDidUnload {

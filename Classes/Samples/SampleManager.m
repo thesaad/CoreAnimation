@@ -75,6 +75,7 @@
     samples_ = [[NSArray alloc] initWithObjects:geom, hier, drawing, animation, special, advanced, nil]; 
   }
   return self;
+    
 }
 
 
@@ -87,7 +88,11 @@
 }
 
 - (NSArray *)samplesForGroup:(NSUInteger)group {
-  return [[[samples_ objectAtIndex:group] copy] autorelease];
+    NSLog(@"samplemanager log in hotfix");
+    NSLog(@"samplemanager log in hotfix");
+    
+    NSLog(@"samplemanager log in hotfix");
+    return [[[samples_ objectAtIndex:group] copy] autorelease];
 }
 
 - (NSString *)sampleNameAtIndexPath:(NSIndexPath *)indexPath {
