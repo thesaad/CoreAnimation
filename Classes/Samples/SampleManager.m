@@ -75,6 +75,7 @@
     samples_ = [[NSArray alloc] initWithObjects:geom, hier, drawing, animation, special, advanced, nil]; 
   }
   return self;
+    
 }
 
 
@@ -87,12 +88,20 @@
 }
 
 - (NSArray *)samplesForGroup:(NSUInteger)group {
+<<<<<<< HEAD
     
     NSLog(@"samplemanager log in master");
     NSLog(@"samplemanager log in master");
     
     NSLog(@"samplemanager log in master");
   return [[[samples_ objectAtIndex:group] copy] autorelease];
+=======
+    NSLog(@"samplemanager log in 3rd branch");
+    NSLog(@"samplemanager log in 3rd branch");
+    
+    NSLog(@"samplemanager log in 3rd branch");
+    return [[[samples_ objectAtIndex:group] copy] autorelease];
+>>>>>>> 3rdbranch
 }
 
 - (NSString *)sampleNameAtIndexPath:(NSIndexPath *)indexPath {

@@ -47,6 +47,10 @@
   CGContextSetStrokeColorWithColor(context, [color CGColor]);
   CGContextSetLineWidth(context, lineWidth);
   CGContextDrawPath(context, kCGPathStroke);
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    
+    NSLog(@"FTDebugDrawing log in 3rd branch");
 }
 
 @end
