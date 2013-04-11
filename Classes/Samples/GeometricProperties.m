@@ -46,12 +46,15 @@
   [movePositionButton_ release], movePositionButton_ = nil;
   [propertiesTextView_ release], propertiesTextView_ = nil;
   [super dealloc];
+    
 }
 
 #pragma mark Load and unload the view
 
 - (void)loadView {
-  UIView *myView = [[[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+  
+    NSLog(@"separate log in master");
+    UIView *myView = [[[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
   myView.backgroundColor = [UIColor whiteColor];
   
   moveAnchorPointButton_ = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];

@@ -38,6 +38,7 @@
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
   rootViewController_ = [[RootViewController alloc] initWithStyle:UITableViewStyleGrouped];
   navigationController_ = [[UINavigationController alloc] initWithRootViewController:rootViewController_];
+    NSLog(@"appdelegate log in master");
 
   [window_ addSubview:navigationController_.view];
   [window_ makeKeyAndVisible];
