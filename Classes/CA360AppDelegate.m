@@ -38,6 +38,7 @@
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
   rootViewController_ = [[RootViewController alloc] initWithStyle:UITableViewStyleGrouped];
   navigationController_ = [[UINavigationController alloc] initWithRootViewController:rootViewController_];
+<<<<<<< HEAD
     NSLog(@"FTDebugDrawing log in 3rd branch");
     NSLog(@"FTDebugDrawing log in 3rd branch");
     
@@ -74,6 +75,35 @@
     NSLog(@"FTDebugDrawing log in 3rd branch");
     
     NSLog(@"FTDebugDrawing log in 3rd branch");
+=======
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"appdelegate log in hotfix");
+
+>>>>>>> hotfixbranch-11-April-2013
 
   [window_ addSubview:navigationController_.view];
   [window_ makeKeyAndVisible];
