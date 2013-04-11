@@ -13,6 +13,9 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		93A6FCD41716D18A00B4945E /* buttonGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A6FCD31716D18A00B4945E /* buttonGray@2x.png */; };
+		93A6FCD71716D19800B4945E /* buttonRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A6FCD51716D19800B4945E /* buttonRed@2x.png */; };
+		93A6FCD81716D19800B4945E /* buttonGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A6FCD61716D19800B4945E /* buttonGray.png */; };
 		DF5FC6C011C7FBD900130E6E /* AdvancedShapeLayers.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5FC6BF11C7FBD900130E6E /* AdvancedShapeLayers.m */; };
 		DF6D1C3A11C19AF200025ED7 /* ShutterTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6D1C3911C19AF200025ED7 /* ShutterTransition.m */; };
 		DF75ABFD116A8252006FF3EB /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF75ABFC116A8252006FF3EB /* MainWindow-iPad.xib */; };
@@ -58,6 +61,9 @@
 		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93A6FCD31716D18A00B4945E /* buttonGray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buttonGray@2x.png"; path = "Resources/buttonGray@2x.png"; sourceTree = "<group>"; };
+		93A6FCD51716D19800B4945E /* buttonRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buttonRed@2x.png"; path = "Resources/buttonRed@2x.png"; sourceTree = "<group>"; };
+		93A6FCD61716D19800B4945E /* buttonGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonGray.png; path = Resources/buttonGray.png; sourceTree = "<group>"; };
 		DF5FC6BE11C7FBD900130E6E /* AdvancedShapeLayers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdvancedShapeLayers.h; path = Classes/Samples/AdvancedShapeLayers.h; sourceTree = "<group>"; };
 		DF5FC6BF11C7FBD900130E6E /* AdvancedShapeLayers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = AdvancedShapeLayers.m; path = Classes/Samples/AdvancedShapeLayers.m; sourceTree = "<group>"; };
 		DF64092411DD64D1002D1414 /* UsefulMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsefulMacros.h; sourceTree = "<group>"; };
@@ -230,6 +236,9 @@
 		DFF7F3A9103603A50067ED5B /* Core Samples */ = {
 			isa = PBXGroup;
 			children = (
+				93A6FCD51716D19800B4945E /* buttonRed@2x.png */,
+				93A6FCD61716D19800B4945E /* buttonGray.png */,
+				93A6FCD31716D18A00B4945E /* buttonGray@2x.png */,
 				DFF7F65C103635380067ED5B /* Geometry & Transforms */,
 				DFF7F65D1036354F0067ED5B /* Layer Hierarchy */,
 				DFF7F65E103635690067ED5B /* Content & Style Properties */,
@@ -367,6 +376,9 @@
 				DF75ABFD116A8252006FF3EB /* MainWindow-iPad.xib in Resources */,
 				DFC621E711745A1F00F5B5FD /* NumberStrip.png in Resources */,
 				DF7A2FAF123D6C5700BDD60A /* Delicious-Roman.otf in Resources */,
+				93A6FCD41716D18A00B4945E /* buttonGray@2x.png in Resources */,
+				93A6FCD71716D19800B4945E /* buttonRed@2x.png in Resources */,
+				93A6FCD81716D19800B4945E /* buttonGray.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
