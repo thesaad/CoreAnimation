@@ -38,7 +38,42 @@
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
   rootViewController_ = [[RootViewController alloc] initWithStyle:UITableViewStyleGrouped];
   navigationController_ = [[UINavigationController alloc] initWithRootViewController:rootViewController_];
-    NSLog(@"appdelegate log in hotfix");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    NSLog(@"FTDebugDrawing log in 3rd branch");
+    
+    NSLog(@"FTDebugDrawing log in 3rd branch");
 
   [window_ addSubview:navigationController_.view];
   [window_ makeKeyAndVisible];
